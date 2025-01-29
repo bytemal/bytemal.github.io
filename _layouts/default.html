@@ -1,59 +1,70 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="google-site-verification" content="9Hs3oD5gKJ04U6XrveiffdUO9OS979JZor8YDrzjHU8" />
-		{% seo %}
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="google-site-verification" content="9Hs3oD5gKJ04U6XrveiffdUO9OS979JZor8YDrzjHU8" />
+	{% seo %}
+	
+	<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<!-- link to main stylesheet -->
+
+	<link rel="stylesheet" type="text/css" href="/bytemal.github.io/css/main.css">
+
+	<script src="https://kit.fontawesome.com/598e96bcc5.js" crossorigin="anonymous"></script>
+
+	<link rel="shortcut icon" type="image/png" 
+      href="{{ "/images/byteMAL_icon.png"  | absolute_url }}">
+
+</head>
+
+<body>	
+
+  {% include octocat_corner.html %}
+    <div class="page-header pt-4 pb-5">
+      <div class="container-lg">
+
+		<div style="text-align: center;">
+		<a href="/bytemal.github.io/"><img src="/bytemal.github.io/images/byteMAL_2024_logo_with_date.png" alt="ByteMAL_2024_logo" class = "center" 
+		style="width:750px;max-width:100%;height:auto;margin-top:40px;margin-bottom:20px;">
+		</a>
+		<ul class="nav justify-content-center">
+			<li class="nav-item px-1 px-md-3">
+				<b><a href="/bytemal.github.io/" style="color: #F9664D; font-size: 24px">Home</a></b>
+			</li>
+			<li class="nav-item px-1 px-md-3">
+				<b><a href="/bytemal.github.io/about" style="color: #0088CC; font-size: 24px">About</a></b>
+			</li>
+			<li class="nav-item px-1 px-md-3">
+				<b><a href="/bytemal.github.io/program" style="color: #0088CC; font-size: 24px">Program</a></b>
+			</li>
+			<li class="nav-item px-1 px-md-3">
+				<b><a href="/bytemal.github.io/speakers" style="color: #0088CC; font-size: 24px">Speakers</a></b>
+			</li>
+			<li class="nav-item px-1 px-md-3">
+				<b><a href="/bytemal.github.io/venue" style="color: #0088CC; font-size: 24px">Venue</a></b>
+			</li>
+			<li class="nav-item px-1 px-md-3">
+				<b><a href="/bytemal.github.io/register" style="color: #0088CC; font-size: 24px">Register</a></b>
+			</li>
+		</ul>
+		</div>
+		<br>
+	        <br>
 		
-		<!-- Bootstrap CSS -->
-			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		<!-- link to main stylesheet -->
-
-		<link rel="stylesheet" type="text/css" href="/bytemal.github.io/css/main.css">
-
-		<script src="https://kit.fontawesome.com/598e96bcc5.js" crossorigin="anonymous"></script>
-
-		<link rel="shortcut icon" type="image/png" 
-		href="{{ "/images/byteMAL_icon.png"  | absolute_url }}">
-
-	</head>
-
-	<body>	
-
-	{% include octocat_corner.html %}
-		<div class="page-header pt-4 pb-5">
-		<div class="container-lg">
-
-			<div style="text-align: center;">
-			<a href="/bytemal.github.io/"><img src="/bytemal.github.io/images/byteMAL_2024_logo_with_date.png" alt="test" class = "center" 
-			style="width:750px;max-width:100%;height:auto;margin-top:40px;margin-bottom:20px;">
-			</a>
-			<ul class="nav justify-content-center">
-				<li class="nav-item px-1 px-md-3">
-					<b><a href="/bytemal.github.io/" style="color: #F9664D; font-size: 24px">Home</a></b>
-				</li>
-				<li class="nav-item px-1 px-md-3">
-					<b><a href="/bytemal.github.io/" style="color: #0088CC; font-size: 24px">About</a></b>
-				</li>
-				</li>
-			</ul>
-			</div>
-			<br>
-				<br>
-			
-			<div class="container px-3">
-				{{ content }}
-			</div>
-			</div>
-		</div><!-- /.container -->
-		
-		{% include footer.html %}
-		
-		<!-- javascript for bootstrap dropdowns etc -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	</body>
+		<div class="container px-3">
+			{{ content }}
+		</div>
+	    </div>
+	</div><!-- /.container -->
+	
+	{% include footer.html %}
+	
+	<!-- javascript for bootstrap dropdowns etc -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
 </html>
