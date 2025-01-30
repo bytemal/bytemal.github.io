@@ -5,9 +5,9 @@ layout: default
 sitemap: false
 carousels:
   - images: 
-    - image: /bytemal.github.io/images/location/location.jpg
-    - image: /bytemal.github.io/images/location/location2.jpg
-    - image: /bytemal.github.io/images/location/location3.jpg
+    - image: /images/location/location.jpg
+    - image: /images/location/location2.jpg
+    - image: /images/location/location3.jpg
 ---
 
   <div class="col-sm-12 px-3">
