@@ -1,6 +1,6 @@
 ---
-title:     ByteMAL 2024 Program
-permalink: /program
+title:     ByteMAL previous editions
+permalink: /previous-editions
 layout:    default
 ---
 

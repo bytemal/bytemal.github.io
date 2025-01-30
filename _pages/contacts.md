@@ -1,6 +1,6 @@
 ---
-title:     ByteMAL 2024 Keynotes
-permalink: /speakers
+title:     ByteMAL contacts
+permalink: /contacts
 layout:    default
 ---
 
