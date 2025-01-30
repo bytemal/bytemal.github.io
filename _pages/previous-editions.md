@@ -4,21 +4,12 @@ permalink: /previous-editions
 layout:    default
 ---
 
-<h2><b>byteMAL 2024 schedule</b></h2> 
-<p style = "font-size:20px"><b>Date:</b> Wednesday April 24, 2024</p>
-
-| Time (*CEST*) | Description |
-| :-----------: | :---------: |
-| 09:30 – 10:00 | Arrival and registration                             |
-| 10:00 – 10:15 | Opening                               |
-| 10:15 – 11:15 | Keynote Presentation: <a href="/bytemal-2024/speakers">Patrick Aloy</a>  |
-| 11:15 – 11:30 | Coffee break                          |
-| 11:30 – 12:50 | PhD presentations    |
-| 12:50 – 13:30 | Lunch break                           |
-| 13:30 – 14:30 | Poster event            |
-| 14:30 – 15:30 | Keynote Presentation: <a href="/bytemal-2024/speakers">Jildau Bouwman</a>   |
-| 15:30 – 16:30 | Panel discussion  |
-| 16:30 – 16:45 | Prize-giving and closing              |
-| 16:45 – ... | Drinks             |
-{:.table-bordered .table-hover .my-4}
-
+<div class="row">
+  <div class="col-sm-8 px-3" style="text-align: justify">
+    <h2 id="about-the-bytemal-conference"><b>List of previous years' editions</b></h2>
+    <p>Here is the list of the previous years' byteMAL conference editions, with the link to the website which regroups all information of each edition (speakers, program, etc.).</p>
+    <ul>
+        <li><a href="https://bytemal.github.io/bytemal-2024/">2024 edition</a>, help on April in Maastrihct.</li>
+    </ul> 
+  
+</div>
