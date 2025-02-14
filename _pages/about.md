@@ -19,19 +19,24 @@ layout: default
   </p>
 
   <br>
-  <p style="text-align: center;"><h2><b>Participating universities</b></h2> <br></p>
-  <p style="text-align: center;">
-    <img src="/images/Institutions/UM_logo.png" alt="UM logo" style="height:100px;max-height:100%;width:auto;vertical-align:middle;">
-  </p>
-  <p style="text-align: center;">
-    <img src="/images/Institutions/RWTH_logo.png" alt="UM logo" style="height:100px;max-height:100%;width:auto;vertical-align:middle;">
-  </p>
-  <p style="text-align: center;">
-    <img src="/images/Institutions/UL_logo.png" alt="UM logo" style="height:100px;max-height:100%;width:auto;vertical-align:middle;">
-  </p>
-  <p style="text-align: center;">
-      <img src="/images/Institutions/KUL_logo.png" alt="UM logo" style="height:100px;max-height:100%;width:auto;vertical-align:middle;">
-  </p>
+  <h2 class="text-center"><b>Participating Universities</b></h2> 
+  <br>
+  
+  <div class="container">
+    <div class="row text-center justify-content-center">
+      <div class="col-6 col-md-6 my-3">
+        <img src="/images/Institutions/UM_logo.png" alt="UM logo" class="img-fluid" style="max-height:100px;">
+      </div>
+      <div class="col-6 col-md-6 my-3">
+        <img src="/images/Institutions/RWTH_logo.png" alt="RWTH logo" class="img-fluid" style="max-height:100px;">
+      </div>
+      <div class="col-6 col-md-6 my-3">
+        <img src="/images/Institutions/UL_logo.png" alt="UL logo" class="img-fluid" style="max-height:100px;">
+      </div>
+      <div class="col-6 col-md-6 my-3">
+        <img src="/images/Institutions/KUL_logo.png" alt="KUL logo" class="img-fluid" style="max-height:100px;">
+      </div>
+    </div>
   </div>
   
 </div>
