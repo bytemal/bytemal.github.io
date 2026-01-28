@@ -9,6 +9,7 @@ layout:    default
     <h2 id="about-the-bytemal-conference"><b>List of previous years' editions</b></h2>
     <p>Here is the list of the previous byteMAL conference editions, with the link to the edition website when there is one.</p>
     <ul>
+        <li><a href="https://bytemal.github.io/bytemal-2025/">2025 edition</a>, held on April 14th in Leuven.</li>
         <li><a href="https://bytemal.github.io/bytemal-2024/">2024 edition</a>, held on April 24th in Maastricht.</li>
         <li>2023 edition, held in Aachen.</li>
         <li>2020 edition, held in Maastricht.</li>
